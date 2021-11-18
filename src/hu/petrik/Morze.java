@@ -15,6 +15,7 @@ public class Morze {
         this.morzebol = new HashMap<>();
         beolvas();
         //kiir();
+        System.out.printf("3. feladat: A morze abc %d db karakter kódját tartalmazza", betubol.size());
     }
 
     private void beolvas(){
