@@ -19,6 +19,7 @@ public class Morze {
         //kiir();
         System.out.printf("3. feladat: A morze abc %d db karakter kódját tartalmazza\n", betubol.size());
         benneVanE();
+        Idezet i = new Idezet();
     }
 
     private void beolvas(){
@@ -59,7 +60,7 @@ public class Morze {
         if (betubol.containsKey(karakter)) {
             System.out.printf("\t\tA(z) %s karakter morze kódja: %s\n", karakter, betubol.get(karakter));
         } else {
-            System.out.println("Nem található a kódtárban ilyen karakter!");
+            System.out.println("\t\tNem található a kódtárban ilyen karakter!");
         }
     }
 }
